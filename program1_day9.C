@@ -33,7 +33,7 @@ int main()
    }
    else if(f==0)
    {
-    x1=-b/(float)a;
+    x1=-b/(float)2*a;
     printf("Roots are real and same: %.2f",x1);
    }
    else 
