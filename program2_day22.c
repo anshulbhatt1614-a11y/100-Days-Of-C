@@ -18,18 +18,20 @@ int main()
 int a=3,b=4,n,i;
 float s=0.0f;
 scanf("%d",&n);
-for(i=1;i<=n;i++)
+for(i=1;i<n;i++)
  {
  s=s+((float)a/b);
+  a=a+2;
+  b=b+2;
  }
  printf("Approximate sum: %.1f",1+s);
  return 0;
  }
  /*C:\cproject>program2_day22.out
 3
-Approximate sum: 3.2
+Approximate sum: 3.3
 C:\cproject>program2_day22.out
 5
-Approximate sum: 4.8
+Approximate sum: 4.4
 C:\cproject>*/
  
