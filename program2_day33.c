@@ -12,7 +12,7 @@ Output 1:
 #include <stdio.h>
 int main()
 {
-int f,l,m,s,i,j;
+int s,i,j;
 scanf("%d",&i);
 int n[i+1];
 for(j=0;j<i;j++)
